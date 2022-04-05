@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Arimo:ital,wght@0,400;0,500;1,600 &familia = Comfortaa: peso @ 300 & display=swap');
+*{
+	font-family: 'Arimo', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html {
+  font-size: 62.5%;
+} 
+body{
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: repeat;
+
+}
+
+#botonera{
+	background-color: rgba(30, 133, 2, 0.45);
+	font-size: 3rem;
+	font-family: "Comfortaa", sans-serif;
+	animation-name: imgAlpha;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+  
+
+}
+.titulo1{
+	font-size: 4rem;
+	color: #8FA804;
+}
+.titulo2{
+	color: #08630A;
+	font-size: 3rem;
+}
+.titulo3{
+	color: #08630A;
+	font-size: 2rem;
+}
+
+.scale:hover{
+  transform:scale(1.25);
+  cursor: pointer;
+  transition: transform 2s;
+}
+
+@keyframes animateDiv{
+    0%{background-color: white;}
+    25%{width: auto;}
+    50%{background-color: rgba(122, 237, 52, 0.65);}
+    75%{background-color: white;}
+    100%{background-color: rgba(122, 237, 52, 0.65);}
+}
+  .animate{
+    animation-name: animateDiv;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes imgAlpha{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+.img{
+	animation-name: imgAlpha;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+}
+.textRed{
+	color: red;
+}
+.textCenter{
+	text-align: center;
+}
+.textRight{
+	text-align: right;
+}
+.textLeft{
+	text-align: left;
+}
+.textJust{
+		text-align: justify;
+		
+}
+.textBold{
+	font-weight: 600;
+}
+.textItalic{
+	font-style: italic;
+}
+
+
+.conocenos__articulo{
+	margin: 20px 10px;
+	padding: 10px;
+	background-color: rgba(122, 237, 52, 0.65);
+	color: rgb(30, 133, 2);
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	
+
+}
+
+.conocenos__noticias{
+
+	margin: 20px 10px;
+	padding: 10px;
+	background-color: rgba(107, 253, 87, 0.5);
+	color: rgb(30, 133, 2);
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+
+
+}
+	
+.contacto{
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+}
