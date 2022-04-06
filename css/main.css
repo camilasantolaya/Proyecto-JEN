@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2? family= Arimo:ital,wght@0,400;0,500;1,600 &familia = Comfortaa: peso @ 300 & display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+#botonera {
+  background-color: rgba(30, 133, 2, 0.45);
+  padding: 0 30px;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  #botonera img {
+    width: 50%; }
+  #botonera ul {
+    display: flex; }
+    #botonera ul li {
+      list-style: none; }
+      #botonera ul li a {
+        font-size: 1em;
+        color: #8FA804;
+        text-decoration: none;
+        font-family: "Arimo", sans-serif;
+        margin-right: 30px; }
+        #botonera ul li a:hover {
+          color: #08630A; }
+
+#main .titulo1 {
+  font-size: 3em;
+  color: #8FA804; }
+
+#main .titulo2 {
+  font-size: 2em;
+  color: #08630A; }
+
+#main .titulo3 {
+  font-size: 1.5em;
+  color: #08630A; }
+
+#main .conocenos__articulo {
+  margin: 20px 10px;
+  padding: 10px;
+  background-color: rgba(30, 133, 2, 0.45);
+  color: #08630A;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1em;
+  line-height: 1.4rem; }
+
+#main .conocenos__noticias {
+  margin: 20px 10px;
+  padding: 10px;
+  background-color: rgba(107, 253, 87, 0.5);
+  color: #08630A;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1em;
+  line-height: 1.4rem; }
