@@ -10,21 +10,14 @@
 	img{
 		width: $w-50;
 	}
-	ul{
-		display:flex;
-		li{
-			list-style:none;
-			a{
-				font-size: $textSm;
-				color: $secondColor;
-				text-decoration: none;
-				font-family:$fontMain;
-				margin-right: 30px;
-				&:hover{
-					color:$keyColor;
+		a{
+			font-size: $textSm;
+			color: $secondColor;
+			text-decoration: none;
+			font-family:$fontMain;
+			margin-right: 30px;
+			&:hover{
+			color:$keyColor;
 				}
-			}
 		}
-	}
-
 }

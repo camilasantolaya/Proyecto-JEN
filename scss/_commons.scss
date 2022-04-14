@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;1,600&family=Comfortaa:wght@300&display=swap');
+
 *{
 	padding: 0;
 	margin:0;
 }
+
+
+$fontMain:'Arimo', sans-serif;
+$fontSecondary:'Comfortaa', cursive;
+
+
+$textXL:3em;
+$textLg:2em;
+$textMd:1.5em;
+$textSm:1em;
 $mainColor:rgba(30, 133, 2, 0.45);
 $mainColorCuadro: rgba(107, 253, 87, 0.5);
 $secondColor:#8FA804;
@@ -11,3 +23,47 @@ $w-100:100%;
 $w-75:75%;
 $w-50:50%;
 $w-25:25%;
+
+.conocenos__articulo{
+		margin: 20px 10px;
+		padding: 10px;
+		background-color: $mainColor;
+		color: $keyColor;
+		font-family: $fontSecondary;
+		font-size: $textSm;
+		line-height: 1.4rem;
+}
+.conocenos__noticias{
+		@extend .conocenos__articulo;
+		background-color: $mainColorCuadro;
+		
+}
+
+@mixin texto($font-size, $line-height,$color){
+	font-size: $font-size;
+	line-height: $line-height;
+	color: $color;
+	padding: 4px 20px
+}
+h1{
+	@include texto(3em, 1.5em, #8FA804);
+}
+
+h2{
+	@include texto(2em, 1.5em, #08630A);
+}
+
+h3{
+	@include texto(1.5em, 1em, #08630A);
+}
+p{
+	@include texto(1em, 1.4em, #08630A);
+}
+
+$shadow:(
+	'sh1': 0px 2px 8px #EF4343,
+	'sh2': 2px 2px 16px #72DC72,
+	'sh3': 2px 2px 4px #7581F3,
+	'sh4': 2px 2px 4px #EECA75,
+)
+

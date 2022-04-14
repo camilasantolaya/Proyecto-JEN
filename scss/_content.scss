@@ -1,34 +1,29 @@
 #main{
 
-	.titulo1{
+	h1{
 		font-size: $textXL;
 		color:$secondColor;
 	}
-	.titulo2{
+	h2{
 		font-size: $textLg;
 		color:$keyColor;
 	}
-	.titulo3{
+	h3
+{
 		font-size: $textMd;
 		color:$keyColor;
 	}
-	.conocenos__articulo{
-		margin: 20px 10px;
-		padding: 10px;
-		background-color: $mainColor;
-		color: $keyColor;
-		font-family:$fontSecondary;
-		font-size: $textSm;
-		line-height: 1.4rem;
-	}
-	.conocenos__noticias{
-		margin: 20px 10px;
-		padding: 10px;
-		background-color: $mainColorCuadro;
-		color: $keyColor;
-		font-family:$fontSecondary;
-		font-size: $textSm;
-		line-height: 1.4rem;
-	}
+	
 
+}
+
+.table{
+background-color: $mainColorCuadro;
+}
+
+.btn-success{
+	box-shadow: map-get($map:$shadow,$key:'sh3');
+}
+.conocenos__articulo{
+	box-shadow: map-get($map:$shadow,$key:'sh4');
 }

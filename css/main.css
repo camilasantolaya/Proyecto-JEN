@@ -1,7 +1,43 @@
-@import url("https://fonts.googleapis.com/css2? family= Arimo:ital,wght@0,400;0,500;1,600 &familia = Comfortaa: peso @ 300 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;1,600&family=Comfortaa:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0; }
+
+.conocenos__articulo, .conocenos__noticias {
+  margin: 20px 10px;
+  padding: 10px;
+  background-color: rgba(30, 133, 2, 0.45);
+  color: #08630A;
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  line-height: 1.4rem; }
+
+.conocenos__noticias {
+  background-color: rgba(107, 253, 87, 0.5); }
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+  color: #8FA804;
+  padding: 4px 20px; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #08630A;
+  padding: 4px 20px; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #08630A;
+  padding: 4px 20px; }
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #08630A;
+  padding: 4px 20px; }
 
 #botonera {
   background-color: rgba(30, 133, 2, 0.45);
@@ -12,45 +48,32 @@
   align-items: center; }
   #botonera img {
     width: 50%; }
-  #botonera ul {
-    display: flex; }
-    #botonera ul li {
-      list-style: none; }
-      #botonera ul li a {
-        font-size: 1em;
-        color: #8FA804;
-        text-decoration: none;
-        font-family: "Arimo", sans-serif;
-        margin-right: 30px; }
-        #botonera ul li a:hover {
-          color: #08630A; }
+  #botonera a {
+    font-size: 1em;
+    color: #8FA804;
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+    margin-right: 30px; }
+    #botonera a:hover {
+      color: #08630A; }
 
-#main .titulo1 {
+#main h1 {
   font-size: 3em;
   color: #8FA804; }
 
-#main .titulo2 {
+#main h2 {
   font-size: 2em;
   color: #08630A; }
 
-#main .titulo3 {
+#main h3 {
   font-size: 1.5em;
   color: #08630A; }
 
-#main .conocenos__articulo {
-  margin: 20px 10px;
-  padding: 10px;
-  background-color: rgba(30, 133, 2, 0.45);
-  color: #08630A;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1em;
-  line-height: 1.4rem; }
+.table {
+  background-color: rgba(107, 253, 87, 0.5); }
 
-#main .conocenos__noticias {
-  margin: 20px 10px;
-  padding: 10px;
-  background-color: rgba(107, 253, 87, 0.5);
-  color: #08630A;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 1em;
-  line-height: 1.4rem; }
+.btn-success {
+  box-shadow: 2px 2px 4px #7581F3; }
+
+.conocenos__articulo, .conocenos__noticias {
+  box-shadow: 2px 2px 4px #EECA75; }
