@@ -6,6 +6,7 @@
 }
 
 
+
 $fontMain:'Arimo', sans-serif;
 $fontSecondary:'Comfortaa', cursive;
 
@@ -60,10 +61,11 @@ p{
 	@include texto(1em, 1.4em, #08630A);
 }
 
-$shadow:(
-	'sh1': 0px 2px 8px #EF4343,
-	'sh2': 2px 2px 16px #72DC72,
-	'sh3': 2px 2px 4px #7581F3,
-	'sh4': 2px 2px 4px #EECA75,
-)
+$paleta:(
+	'uno':#D1F505,
+	'dos':#90A803,
+	'tres':#DCF54E,
+	'cuatro':#647502,
+	'cinco':#7A8F03,
 
+)

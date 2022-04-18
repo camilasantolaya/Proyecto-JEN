@@ -1,3 +1,5 @@
+
+
 #main{
 
 	h1{
@@ -19,11 +21,4 @@
 
 .table{
 background-color: $mainColorCuadro;
-}
-
-.btn-success{
-	box-shadow: map-get($map:$shadow,$key:'sh3');
-}
-.conocenos__articulo{
-	box-shadow: map-get($map:$shadow,$key:'sh4');
 }

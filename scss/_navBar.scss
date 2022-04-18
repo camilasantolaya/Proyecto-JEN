@@ -1,23 +1,23 @@
 //nesting
 
 #botonera{
-	background-color:$mainColor;
+	
 	padding: 0 30px;
 	position: sticky;
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	img{
 		width: $w-50;
 	}
 		a{
 			font-size: $textSm;
-			color: $secondColor;
+			color: $keyColor;
 			text-decoration: none;
 			font-family:$fontMain;
 			margin-right: 30px;
 			&:hover{
-			color:$keyColor;
+			color:$secondColor;
 				}
 		}
 }

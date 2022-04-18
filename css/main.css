@@ -40,22 +40,21 @@ p {
   padding: 4px 20px; }
 
 #botonera {
-  background-color: rgba(30, 133, 2, 0.45);
   padding: 0 30px;
   position: sticky;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
   #botonera img {
     width: 50%; }
   #botonera a {
     font-size: 1em;
-    color: #8FA804;
+    color: #08630A;
     text-decoration: none;
     font-family: "Arimo", sans-serif;
     margin-right: 30px; }
     #botonera a:hover {
-      color: #08630A; }
+      color: #8FA804; }
 
 #main h1 {
   font-size: 3em;
@@ -71,9 +70,3 @@ p {
 
 .table {
   background-color: rgba(107, 253, 87, 0.5); }
-
-.btn-success {
-  box-shadow: 2px 2px 4px #7581F3; }
-
-.conocenos__articulo, .conocenos__noticias {
-  box-shadow: 2px 2px 4px #EECA75; }
