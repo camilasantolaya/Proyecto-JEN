@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/camilasantolaya/Proyecto-JEN.git"
+    "url": "git+https://github.com/camilasantolaya/ProyectoJEN.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/camilasantolaya/Proyecto-JEN/issues"
+    "url": "https://github.com/camilasantolaya/ProyectoJEN/issues"
   },
-  "homepage": "https://github.com/camilasantolaya/Proyecto-JEN#readme",
+  "homepage": "https://github.com/camilasantolaya/ProyectoJEN#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
