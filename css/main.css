@@ -3,40 +3,52 @@
   padding: 0;
   margin: 0; }
 
+body {
+  background-color: #DCF54E; }
+
+footer {
+  background-color: white; }
+
 .conocenos__articulo, .conocenos__noticias {
   margin: 20px 10px;
   padding: 10px;
-  background-color: rgba(30, 133, 2, 0.45);
+  background-color: white;
   color: #08630A;
   font-family: "Comfortaa", cursive;
   font-size: 1em;
   line-height: 1.4rem; }
+  .conocenos__articulo img, .conocenos__noticias img {
+    width: 50%; }
 
 .conocenos__noticias {
-  background-color: rgba(107, 253, 87, 0.5); }
+  background-color: white; }
 
 h1 {
   font-size: 3em;
   line-height: 1.5em;
   color: #8FA804;
+  text-align: center;
   padding: 4px 20px; }
 
 h2 {
   font-size: 2em;
   line-height: 1.5em;
   color: #08630A;
+  text-align: center;
   padding: 4px 20px; }
 
 h3 {
   font-size: 1.5em;
   line-height: 1em;
   color: #08630A;
+  text-align: center;
   padding: 4px 20px; }
 
 p {
   font-size: 1em;
   line-height: 1.4em;
   color: #08630A;
+  text-align: center;
   padding: 4px 20px; }
 
 #botonera {
@@ -44,7 +56,8 @@ p {
   position: sticky;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  background-color: white; }
   #botonera img {
     width: 50%; }
   #botonera a {
