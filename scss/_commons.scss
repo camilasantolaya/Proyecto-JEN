@@ -6,12 +6,13 @@
 }
 
 body{
-	background-color: #DCF54E;
+	background-color: #08630A;
 }
 footer{
 	background-color: white;
 
 }
+
 
 $fontMain:'Arimo', sans-serif;
 $fontSecondary:'Comfortaa', cursive;
@@ -37,28 +38,49 @@ $w-50:50%;
 $w-25:25%;
 
 .conocenos__articulo{
+		
+	margin: 20px 10px;
+	padding: 10px;
+	background-color: white;
+	height: 400px;
 
-		margin: 20px 10px;
-		padding: 10px;
-		background-color: white;
+	p{
+		
 		color: $keyColor;
 		font-family: $fontSecondary;
 		font-size: $textSm;
 		line-height: 1.4rem;
+		text-align: justify;
+
 		
-		img{
+	}
+	img{
+		margin: 0px auto;
+		display: flex;
+		align-items: center;
 		width: $w-50;
-		
-		}
+			
+					
+	}		
 
 
 }
 .conocenos__noticias{
 		@extend .conocenos__articulo;
-		background-color: white;
+		
 		
 }
-
+.somos{
+		@extend .conocenos__articulo;
+		height: auto;
+		
+		
+}
+.carousel-item{
+	img{
+	height: 400px;
+  	}
+}
 @mixin texto($font-size, $line-height,$color){
 	font-size: $font-size;
 	line-height: $line-height;
