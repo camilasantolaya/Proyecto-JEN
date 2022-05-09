@@ -67,7 +67,13 @@ $w-25:25%;
 }
 .conocenos__noticias{
 		@extend .conocenos__articulo;
-		height: 600px;
+		
+		
+		
+}
+.noticias{
+		@extend .conocenos__articulo;
+		height: 800px;
 		
 		
 }
@@ -93,6 +99,7 @@ $w-25:25%;
 	height: 400px;
   	}
 }
+
 @mixin texto($font-size, $line-height,$color){
 	font-size: $font-size;
 	line-height: $line-height;

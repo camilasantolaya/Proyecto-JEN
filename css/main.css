@@ -9,25 +9,25 @@ body {
 footer {
   background-color: white; }
 
-.conocenos__articulo, .conocenos__noticias, .somos, .creemos {
+.conocenos__articulo, .conocenos__noticias, .noticias, .somos, .creemos {
   margin: 20px 10px;
   padding: 10px;
   background-color: white;
   height: 400px; }
-  .conocenos__articulo p, .conocenos__noticias p, .somos p, .creemos p {
+  .conocenos__articulo p, .conocenos__noticias p, .noticias p, .somos p, .creemos p {
     color: #08630A;
     font-family: "Comfortaa", cursive;
     font-size: 1em;
     line-height: 1.4rem;
     text-align: justify; }
-  .conocenos__articulo img, .conocenos__noticias img, .somos img, .creemos img {
+  .conocenos__articulo img, .conocenos__noticias img, .noticias img, .somos img, .creemos img {
     margin: 0px auto;
     display: flex;
     align-items: center;
     width: 50%; }
 
-.conocenos__noticias {
-  height: 600px; }
+.noticias {
+  height: 800px; }
 
 .somos {
   height: auto; }
