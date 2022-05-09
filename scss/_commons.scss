@@ -67,15 +67,27 @@ $w-25:25%;
 }
 .conocenos__noticias{
 		@extend .conocenos__articulo;
+		height: 600px;
 		
 		
 }
 .somos{
 		@extend .conocenos__articulo;
 		height: auto;
-		
-		
+		img{
+			width: $w-25;
+		}
+			
 }
+
+.creemos{
+		@extend .conocenos__articulo;
+		height: auto;
+		img{
+			width: $w-50;
+		}
+}
+
 .carousel-item{
 	img{
 	height: 400px;
